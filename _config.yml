@@ -1,15 +1,15 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       cowpig's corner
+email:       cowpig@cowpig.org
+author:      cowpig
+description: "For now, this will just be a bio and some projects."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://cowpig.github.io"
 date_format: "%b %-d, %Y"
 
-# Google services
-google_analytics:
-google_verification:
+# # Google services
+# google_analytics:
+# google_verification:
 
 # Optional features
 animated:             false
