@@ -1,0 +1,3 @@
+[submodule "netviz"]
+	path = netviz
+	url = https://github.com/cowpig/netviz.git
