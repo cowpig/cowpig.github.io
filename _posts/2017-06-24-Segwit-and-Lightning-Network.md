@@ -10,11 +10,13 @@ categories: bitcoin cryptocurrency
 For a long time, I’ve had a vague understanding of what Segwit is: that it’s some kind of scaling solution, and necessary for the “Lightning Network”. However, I was never able to find a simple, ELI5 explanation of how it works. I finally took the time today to really understand it, and so here’s my attempt to explain it concretely.
  
 For the purposes of this explanation, let’s assume that Bitcoin transactions look like this<sup>[1](#fn1)</sup>:
-```Tx: {
+```
+Tx: {
     Input: [(<previous TxID>,<tx output #>), ...],
     Output: [(<destination addresses>, <amount>), ...],
     Signature: [(<TxIDs>, <TxID’s relevant cryptographic signature(s)>)]
-}```
+}
+```
 
 `TxID` stands for Transaction ID, and is the hash of some transaction block (like this one). Note that it’s not part of the transaction itself, but calculated based on the contents of the transaction.
  
@@ -34,14 +36,18 @@ Spoiler: the Lightning Network depends on uncommitted transactions!
 
 **Segwit: a malleability fix**
 Segwit stands for “segregated witness,” and “witness” is just another word for the signature. This fixes the problem of malleability by allowing for transactions that move the signatures off of the transaction, into another part of the block. So, a transaction looks like this:
-```Tx: {
+```
+Tx: {
     Input: [(<previous TxID>,<tx output #>), ...],
     Output: [(<destination addresses>, <amount>), ...],
-}```
+}
+```
 And somewhere else in the block we have:
-```Sig: {
+```
+Sig: {
     Signature: [(TxID, <Input TxID’s relevant cryptographic signature(s)>)]
-}```
+}
+```
 Now, if I change the signature, it no longer affects the hash of the transaction.
  
 **Wait, I thought Segwit was about decreasing the size of transactions to effectively increase the blocksize limit?**
