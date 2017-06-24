@@ -59,6 +59,8 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
 permalink:    pretty
 paginate:     4
 sass:
