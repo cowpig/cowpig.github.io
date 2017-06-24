@@ -62,15 +62,15 @@ Timelock: a transaction that is invalid before some timestamp TS
 Multisig: a transaction that requires multiple signatures to be valid. Effectively allows a transaction output to have shared ownership.
  
 Let’s say Alice and Bob want to transact with each other multiple times without using the blockchain for every transaction. Here’s how it would work:
-Alice creates a multisig transaction sending 100btc to a shared Alice-Bob output--one that requires both signatures--and signs it. We’ll call this transaction Tx0. And she only reveals Tx0 to Bob after:
-Alice and Bob each sign a timelocked transaction for 30 days from now, sending 100btc back to Alice. This is not committed to the blockchain, and opens a “channel” between them.
+1. Alice creates a multisig transaction sending 100btc to a shared Alice-Bob output--one that requires both signatures--and signs it. We’ll call this transaction `Tx0`. And she only reveals `Tx0` to Bob after:
+2. Alice and Bob each sign a timelocked transaction for `30 days` from now, sending 100btc back to Alice. This is not committed to the blockchain, and opens a “channel” between them.
 With this setup, Alice has the ability to close the channel in 30 days, by committing the refund transaction. If nothing else happens, Alice will complete the channel having only paid the transaction fees for two transactions.
-Now Alice wants to send 50btc to Bob without committing anything to the blockchain. To do so, she signs a contract with the outputs [(Bob, 50), (Alice: 50)], and timelocks it for 29 days.
+3. Now Alice wants to send 50btc to Bob without committing anything to the blockchain. To do so, she signs a contract with the outputs `[(Bob, 50), (Alice: 50)]`, and timelocks it for `29 days`.
 The impetus is now on Bob to sign Alice’s transaction and commit it to the blockchain when 29 days have passed. 
 If Bob commits this transaction, he will receive 50btc and Alice’s 30-day refund will become invalid. If he fails to do so, Alice can close the channel on day 30 and her btc will be refunded in full. Notice Alice’s transaction only has to be validated by Bob, and not by every node in the Bitcoin network.
-Alice sends another 10btc to Bob. To do this, she signs a contract with the outputs [(Bob, 60), (Alice, 40)]. Again, she timelocks it at 29 days.
+4. Alice sends another 10btc to Bob. To do this, she signs a contract with the outputs `[(Bob, 60), (Alice, 40)]`. Again, she timelocks it at `29 days`.
 Alice doesn’t need an earlier timelock in this case, because the Bob still has the incentive to commit the transaction.
-Bob sends 10btc back to Alice. He signs a contract with the outputs [(Bob, 50), (Alice, 50)], with a timelock of 28 days.
+5. Bob sends 10btc back to Alice. He signs a contract with the outputs `[(Bob, 50), (Alice, 50)]`, with a timelock of `28 days`.
 Here the timelock has to move forward in time, because the change in balance has switched directions. It’s now Alice’s responsibility to commit the 50/50 output on day 28, or risk Bob committing the 60/40 transaction on day 29.
  
 With this channel, it’s possible for Alice and Bob to send money back and forth, without ever trusting the other, and without having to commit anything to the blockchain.
