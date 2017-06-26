@@ -147,4 +147,4 @@ In this case, `a` can sign a "breach remedy" transaction:
 
 ```{id: 3, outputs: [(b, 100)], inputs: [txid: 1]}```
 
-So that if the overwritten `TxID:1` is ever committed, it allows Bob to claim all of the coins in the channel. However, for this to work, `TxID:1` needs to be timelocked such that it cannot be closed right away except in the case of breach remedies, and however long that timelock is needs to be weighed against the possibility of a breach remedy sitting indefinitely in the mempool. So this mitigates the problem at a cost.
+So that if the overwritten `TxID:1` is ever committed, it allows Bob to claim all of the coins in the channel. However, for this to work, `TxID:1` needs to be timelocked such that it cannot be closed right away except in the case of breach remedies, and however long that timelock is needs to be weighed against the possibility of a breach remedy sitting indefinitely in the mempool. So this mitigates the problem at the cost of the coins being locked for some amount of time after the channel closes.
