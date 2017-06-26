@@ -117,7 +117,7 @@ It seems that a lot of the Bitcoin community falls into one of two camps: either
 
 I suppose that there’s an economic point to be made in favor of Segwit instead of larger blocks: that encouraging the much more energy-efficient person-to-person lightning network is a great gain. However, it seems to me that small blocks are in fact a risk for the lightning network.
 
-This is because of the time-dependent nature of lightning network transactions. If every block is full (as they currently are), then any given transaction runs the risk of not being included in a given block. This can happen indefinitely, as there is no first-in-first-out rule for miners to choose transactions. It’s entirely possible for a Lightning Network channel-closing transaction to sit around in the mempool until the next timelocked transaction becomes committable!
+This is because of the time-dependent nature of lightning network transactions. If every block is full (as they currently are), then any given transaction runs the risk of not being included in a given block. This can happen indefinitely, as there is no first-in-first-out rule for miners to choose transactions. It’s entirely possible for a Lightning Network channel-closing transaction to sit around in the mempool until the next timelocked transaction becomes committable! **edit: this problem can be somewhat mitigated by "breach remedy" transactions**<sup>[4](#fn4)</sup>
 
 This means that larger blocks are not just a necessary adaptation to the increased traffic Bitcoin has seen. Larger would also decrease risks associated with the Lightning Network!
 On the other side of this debate, I just see misaligned incentives: the Lightning Network clearly benefits users, but it also harms miners: miners make a (currently small) portion of their income from transactions, and each transaction that occurs off-chain is a potential loss. Since miners ultimately hold the power to make changes to Bitcoin’s protocol, it’s been very difficult to convince miners to upgrade to Segwit. And the community’s stratification on this issue, and the idea that the two protocol changes are somehow exclusive, has only made this problem worse.
@@ -134,3 +134,17 @@ Finally, there’s a hard- vs soft-fork argument, but I don’t believe this is 
 <a name="fn2">2</a>: Specifically, for every ECDSA signature (r,s), the signature (r, -s (mod N)) is a valid signature of the same message.
 
 <a name="fn3">3</a>: The amount of effectively added space varies based on the ratio of transaction data to signature data, but you can assume something between a 25 and 50% increase in effective number of transactions for blocks in a typical case.
+
+<a name="fn4">4</a>: A "breach remedy" transaction is a way to ensure that an overwritten transaction never reaches the blockchain. Suppose you have a transaction open in a channel that looks like this:
+
+```{id: 1, outputs: [(a, 50), (b, 50)], inputs: [txid 0]}```
+
+and you replace it with: 
+
+```{id: 2, outputs: [(a, 40), (b, 60)], inputs: [txid 0]}```
+
+In this case, `a` can sign a "breach remedy" transaction: 
+
+```{id: 3, outputs: [(b, 100)], inputs: [txid: 1]}```
+
+So that if the overwritten `TxID:1` is ever committed, it allows Bob to claim all of the coins in the channel. However, for this to work, `TxID:1` needs to be timelocked such that it cannot be closed right away except in the case of breach remedies, and however long that timelock is needs to be weighed against the possibility of a breach remedy sitting indefinitely in the mempool. So this mitigates the problem at a cost.
