@@ -80,12 +80,14 @@ Let’s say Alice and Bob want to transact with each other multiple times withou
 
 With this setup, Alice has the ability to close the channel in 30 days, by committing the refund transaction. If nothing else happens, Alice will complete the channel having only paid the transaction fees for two transactions.
 
+{:start="3"}
 3. Now Alice wants to send 50btc to Bob without committing anything to the blockchain. To do so, she signs a contract with the outputs `[(Bob, 50), (Alice: 50)]`, and timelocks it for `29 days`.
 
 The impetus is now on Bob to sign Alice’s transaction and commit it to the blockchain when 29 days have passed. 
 
 If Bob commits this transaction, he will receive 50btc and Alice’s 30-day refund will become invalid. If he fails to do so, Alice can close the channel on day 30 and her btc will be refunded in full. Notice Alice’s transaction only has to be validated by Bob, and not by every node in the Bitcoin network.
 
+{:start="4"}
 4. Alice sends another 10btc to Bob. To do this, she signs a contract with the outputs `[(Bob, 60), (Alice, 40)]`. Again, she timelocks it at `29 days`.
 Alice doesn’t need an earlier timelock in this case, because the Bob still has the incentive to commit the transaction.
 5. Bob sends 10btc back to Alice. He signs a contract with the outputs `[(Bob, 50), (Alice, 50)]`, with a timelock of `28 days`.
