@@ -13,6 +13,7 @@ co-founder of [monadical](https://monadical.com/)
 
 **Personal Links**
 
+* [oddslingers](https://oddslingers.com)
 * [monadical](https://monadical.com) -- [we're hiring!](https://monadical.com/#careers)
 * [neural network visualization tool](http://cowpig.github.io/netviz/viz.html) built on top of [Karpathy's convnetJS library](https://github.com/karpathy/convnetjs)
 * [github profile](https://github.com/cowpig)
