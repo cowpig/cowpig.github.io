@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      “Trustless” is a Myth. Here are some lessons on Trust I learned in the poker world.
+title:      “Trustless” is a Myth. Here's why trust matters.
 date:       2018-01-29
 summary:    Why trust is an essential part of any economy, and some things that poker taught me about applying it.
 categories: bitcoin ethereum poker cryptocurrency trust economics game-theory
@@ -34,7 +34,7 @@ Of course, there were plenty of disputes and scandals, and learning how to navig
 
 There were several major instances in which platforms either [disappeared with all of its users’ funds](http://www.pokerhistory.eu/history/online-poker-scandals/poker-spot-scandal) or [had critical design flaws](https://www.developer.com/tech/article.php/10923_616221_3/How-We-Learned-to-Cheat-at-Online-Poker-A-Study-in-Software-Security.htm). In 2007 it was discovered that someone inside of the Cereus Network, one of the largest cardrooms backed by well-respected celebrity players such as Phil Hellmuth and Annie Duke, had been [cheating its players in high-stakes games](http://archives1.twoplustwo.com/showflat.php?Cat=0&Number=12523924&page=0&fpart=1&vc=1). But this paled in comparison to the revelations following 2011 DOJ “Black Friday” crackdown that two of the largest platforms, Cereus (again) and Full Tilt, had essentially been ponzi schemes. Hundreds of millions of dollars in player funds had been embezzled by insiders. This resulted in Pokerstars making a deal with the DOJ to [purchase Full Tilt’s seized assets](http://www.espn.com/poker/story/_/id/8218085/pokerstars-reaches-settlement-department-justice-acquires-full-tilt-poker) (at a preposterous discount) directly from the government on the condition that they reimburse players who had been defrauded.
 
-###How to Trust
+### How to Trust
 
 Individuals [seem to be much better at reasoning](https://en.wikipedia.org/wiki/Wason_selection_task#cite_note-cogadapt-11) about situations in which someone is breaking our trust, or cheating. People have evolved not only to reason particularly well about cheating within a system, but also to experience outrage when it’s detected. And there is a game-theoretical reason for this: the better individuals are at detecting and punishing cheaters in a system, [the more honest actors it can support](http://ncase.me/trust/). 
 
@@ -88,7 +88,7 @@ The reliability of group (2) is depends hugely on the reputation of the source. 
 
 Group (3) is essentially a giant industry specializing in classifying and manipulating end users. It’s impossible to trust. Delete your social media accounts.
 
-###We technologists need to get this right.
+### We technologists need to get this right.
 
 Globalization and blockchain economies are making it increasingly harder for governments to regulate our marketplaces. AI and surveillance are decreasing the cost of mass propaganda like never before. This leaves technologists with unprecedented power.
 
