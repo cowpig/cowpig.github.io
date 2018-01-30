@@ -7,7 +7,7 @@ tags: about
 
 I'm interested in AI, cryptocurrencies, poker/chess/go, rock climbing, cooking, and social issues.
 
-co-founder of [monadical](https://monadical.com/)
+co-founder of [monadical](https://monadical.com/), building [oddslingers poker](https://oddslingers.com)
 
 ***
 
