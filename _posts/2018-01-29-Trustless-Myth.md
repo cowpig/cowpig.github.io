@@ -1,0 +1,97 @@
+---
+layout:     post
+title:      “Trustless” is a Myth. Here are some lessons on Trust I learned in the poker world.
+date:       2018-01-29
+summary:    Why trust is an essential part of any economy, and some things that poker taught me about applying it.
+categories: bitcoin ethereum poker cryptocurrency trust economics game-theory
+---
+
+*I was heavily involved in the poker world for many years, and learned a lot about the psychology involved in trusting individuals. After that, I became a software engineer and learned a lot about the analysis involved in trusting systems.*
+
+### “Trustless” isn’t a thing.
+
+The idea of “[trustless](https://steemit.com/technology/@jacor/trustless-what-does-it-mean-in-laymen-s-terms)” systems is rooted in the philosophies of early Bitcoin adopters: that banks cannot be trusted (nor central authorities in general), and that we therefore should rely on a system that eliminates the need for such a trusted party. Bitcoin, evangelists argue, is a system that replaces trust with consensus.
+
+The word “trustless” implies that trust has been removed from the system altogether. But in reality, systems like Bitcoin require plenty of trust. How do you know it works the way you think it does? Are you sure everything you read was reported accurately? Have you read all of your favorite cryptocurrency client’s source code? Are you sure there are no bugs in it? Do you trust that the people responsible for maintaining and evolving the technology are doing so faithfully, and effectively? Are you sure they will continue to do so? Are you sure there aren’t attack vectors you haven’t thought of?
+
+It is impossible to answer “yes” to any of those questions with certainty, because we live in a world of incomplete information. Without complete knowledge of the world, we’re doomed to making assumptions about the things we can’t see and don’t know. Those assumptions, particularly when they concern the behaviour of others, constitute trust. It’s inescapable.
+
+Trust comes from understanding systems of incentives. The innovation of cryptocurrency systems isn’t that they’ve removed trust, but rather aligned economic incentives such that participants in the system can trust it more. 
+
+In practice, we apply trust every day, and understanding when and how much to trust involves a combination of psychology, game theory, and an understanding of the world around us.
+
+### The poker boom.
+
+In 2003 a previously unheard-of accountant from Tennessee named Moneymaker turned his $86 online satellite buy-in into $2,500,000 by winning the main event of the World Series of Poker.
+
+I was 16 years old at the time. My parents were involved in the chess scene in NYC, and the Moneymaker Effect hit that crowd as hard as anyone--a game of skill that people play for money wasn’t exactly a hard sell.
+
+One day I found a book titled “The Theory of Poker” by David Sklansky on my dining room table. I picked it up, read it, and then convinced my father to let me play on his account of his with $50 in it and lost it immediately. I got completely hooked, and in less than a year I turned my second deposit into my first car.
+
+One of the most striking things about the online poker community was the trust involved. People were openly sharing their ideas in public forums, and regularly trusting each other with life-changing sums of money, particularly when proposition betting. There are just too [many](https://en.wikipedia.org/wiki/Brian_Zembic#The_Breast_bet) [great](https://www.pokernews.com/news/2009/01/pokernews-top-10-list-all-time-prop-bets-1034.htm) [stories](http://archives1.twoplustwo.com/showflat.php?Number=10970199), but a particular favorite of mine was when Ashton “Ashman” Griffin won $300,000 off of a spur-of-the-moment bet that he could [run 70 miles in 24 hours after a night of partying](https://forumserver.twoplustwo.com/29/news-views-gossip/ashman-run-70-miles-24-hours-prop-bet-973629/). These bets often involved enormous sums of money riding on nothing more than a player’s word. Nobody ever signed contracts or used escrow services. They just trusted one another.
+
+Of course, there were plenty of disputes and scandals, and learning how to navigate this world of trust was essential to survive that world. Players would disagree on the outcome of a bet or on the details of its conditions, and often you’d turn to the community for arbitration. There were also scandals involving players cheating or outright stealing, but they were relatively uncommon and the volume of money lost in this way was a drop in the ocean when compared to the total amount of money changing hands. The same could not be said of the platforms.
+
+There were several major instances in which platforms either [disappeared with all of its users’ funds](http://www.pokerhistory.eu/history/online-poker-scandals/poker-spot-scandal) or [had critical design flaws](https://www.developer.com/tech/article.php/10923_616221_3/How-We-Learned-to-Cheat-at-Online-Poker-A-Study-in-Software-Security.htm). In 2007 it was discovered that someone inside of the Cereus Network, one of the largest cardrooms backed by well-respected celebrity players such as Phil Hellmuth and Annie Duke, had been [cheating its players in high-stakes games](http://archives1.twoplustwo.com/showflat.php?Cat=0&Number=12523924&page=0&fpart=1&vc=1). But this paled in comparison to the revelations following 2011 DOJ “Black Friday” crackdown that two of the largest platforms, Cereus (again) and Full Tilt, had essentially been ponzi schemes. Hundreds of millions of dollars in player funds had been embezzled by insiders. This resulted in Pokerstars making a deal with the DOJ to [purchase Full Tilt’s seized assets](http://www.espn.com/poker/story/_/id/8218085/pokerstars-reaches-settlement-department-justice-acquires-full-tilt-poker) (at a preposterous discount) directly from the government on the condition that they reimburse players who had been defrauded.
+
+###How to Trust
+
+Individuals [seem to be much better at reasoning](https://en.wikipedia.org/wiki/Wason_selection_task#cite_note-cogadapt-11) about situations in which someone is breaking our trust, or cheating. People have evolved not only to reason particularly well about cheating within a system, but also to experience outrage when it’s detected. And there is a game-theoretical reason for this: the better individuals are at detecting and punishing cheaters in a system, [the more honest actors it can support](http://ncase.me/trust/). 
+
+When you consider the fact that cooperating actors working together are much more effective than adversarial actors cheating one another, it’s not hard to realize that systems which encourage cooperation are more likely to survive than systems which do not. Conversely, systems which are bad at disincentivizing dishonest behaviour are worse off.
+
+This means that people who’ve been a visible member of a community for a long time are much less likely to act dishonestly than someone new or anonymous: it’s just too hard to deceive people over a long period of time.
+
+Of course, there are exceptions to this rule--particularly when the cost of maintaining a reputation is lower than the benefits it brings. The current president of the US has built an empire out of exploiting his reputation. In his case, the cost of navigating our social and judicial systems as a cheater have failed to outweigh his gains.
+
+The key question is: how much is being untrustworthy in some situation worth? Is it worth more than the cost to reputation?
+
+Things can get complicated when you look at larger systems, or corporations. You might think that Full Tilt Poker had a pretty valuable reputation at stake, as poker was a rather lucrative business for them. But the probability of their getting caught was actually pretty low. Nobody predicted that the DOJ was going to suddenly seize all of FTP’s assets and discover that it had been embezzling player funds. [Fractional-reserve banking](https://en.wikipedia.org/wiki/Fractional-reserve_banking) is a thing: they only really needed to cover a portion of player funds in practice. If everyone starts withdrawing their money at once, it probably means the value of the business is dropping radically anyway, thus decreasing the cost of getting caught. 
+
+Additionally, powerful entities typically have PR departments dedicated to mitigating damage to their reputations. And the more powerful an entity, the more power it has to shape public opinion. [Large](https://www.theverge.com/2017/8/23/16194366/exxon-mobil-knew-climate-change-misinformation-harvard-study) [corporations](https://www.theatlantic.com/politics/archive/2016/05/low-tar-cigarettes/481116/) and [government agencies](http://www.ihr.org/jhr/v09/v09p305_Marchetti.html) are [better](https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html) [than](https://en.wikipedia.org/wiki/Web_brigades) [ever](https://en.wikipedia.org/wiki/50_Cent_Party) at this. And bad actors are drawn to the unregulated world of cryptocurrencies like flies to shit.
+
+In the age of fake news and multimillion-dollar ICO scams, how can you decide whom to trust? I have some heuristics:
+
+**Lies are like cockroaches: if you find one, there are probably a lot more.**
+
+People and systems that engage in deceptive behaviour tend to be good at hiding it (they have to, in order to survive). If you get a whiff, run away. This is particularly true of situations where it seems like you have a lot to gain from ignoring your spidey sense. If it seems too good to be true, look closer and maybe ask your friends.
+
+**Mold grows in the shadow, and transparency is the light.**
+
+Opacity directly counters the survivor effect--if individuals can’t see what a bad actor is doing, they can’t blow their whistles. If I can’t get a clear answer to a question I have about how something works, what someone’s motivations are, etc, then I assume there’s a reason that answer is hard to find. Often it’s because it’s been intentionally hidden.
+
+Similarly, I’ve found it’s really important to ask lots of questions. The more uncomfortable or difficult it is to ask, the more likely getting the answer is especially important.
+
+**Complexity is darkness.**
+
+If you can’t see how something works, you can’t really be sure what it will do. Similarly, simple things are easy to understand. Complex things are not.
+
+Large corporations have many actors within them, with webs of motivations that can be impossible to discern from the outside. If any of those individual actors have the power to affect your interaction with the system as a whole, it should be much more difficult to trust that system.
+
+This is closely related to the concept of an “attack surface” in software security. Complex systems are not just difficult to understand, they also have many points of failure (aka unexpected behaviour).
+
+Unfortunately, simple isn’t easy. This deserves its own article, but I think that complexity is by far the most glaring weakness of Ethereum, and not scalability. In particular, its smart contract language (Solidity) makes corporate legalese look like Mother Goose rhymes.
+
+**Find sources that have a lot to lose (or not much to gain).**
+
+Information about the cryptocurrency world mostly falls under three categories (in increasing bullshit ratio):
+
+1. Technical materials targeted towards technologists and programmers, and occasionally economists. If you don’t fall into this category, it will be hard to find and harder to understand this material.
+
+2. Economic news, such as reports about changes in cryptocurrency-related policy, scandals, and especially about bubbles. You’ll find this anywhere there’s other kinds of news about economics.
+
+3. Hype/evangelism, and [FUD](https://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt). If you’re on social media (Twitter, Reddit, Facebook, Medium…) or watching network news, you will be seeing this whether you like it or not.
+
+People in group (1), especially who work in a non- or low-profit area (Cornell's IC3 program is a good example) are much more reliable sources than any of the other two. Unfortunately, they’re hard to find if you’re not in those circles already.
+
+The reliability of group (2) is depends hugely on the reputation of the source. Use well-respected news sources and ignore the rest. Of course, this is difficult, because well-respected organizations mostly aren’t paying attention to the crypto world.
+
+Group (3) is essentially a giant industry specializing in classifying and manipulating end users. It’s impossible to trust. Delete your social media accounts.
+
+###We technologists need to get this right.
+
+Globalization and blockchain economies are making it increasingly harder for governments to regulate our marketplaces. AI and surveillance are decreasing the cost of mass propaganda like never before. This leaves technologists with unprecedented power.
+
+Bitcoin’s most powerful innovation was the positive feedback loop of incentives that the system created: miners are incentivized to maintain integrity of the network, and users are incentivized to perpetuate the network. But other than its own self-propagation, the system of incentives is confined to the network itself. There’s no system of governance, nothing to encourage people to use the network in ways that benefit one another.
+
+As blockchain technologies move into the mainstream, it will be our designs that determine whether we spend our future surrounded by friends, or by adversaries. Will we build systems that enable abuse, or reward honesty? Can we build systems that we can trust?
