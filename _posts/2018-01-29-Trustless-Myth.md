@@ -6,7 +6,9 @@ summary:    Why trust is an essential part of any economy, and some things that 
 categories: bitcoin ethereum poker cryptocurrency trust economics game-theory
 ---
 
-*I was heavily involved in the poker world for many years, and learned a lot about the psychology involved in trusting individuals. After that, I became a software engineer and learned a lot about the analysis involved in trusting systems.*
+*I was deeply involved in the poker world for many years, and learned a lot about the psychology involved in trusting individuals. After that, I became a software engineer and learned a lot about the analysis involved in trusting systems.*
+
+![trust-image](/images/technohandshake.jpg "Trust")
 
 ### “Trustless” isn’t a thing.
 
@@ -30,7 +32,7 @@ One day I found a book titled “The Theory of Poker” by David Sklansky on my 
 
 One of the most striking things about the online poker community was the trust involved. People were openly sharing their ideas in public forums, and regularly trusting each other with life-changing sums of money, particularly when proposition betting. There are just too [many](https://en.wikipedia.org/wiki/Brian_Zembic#The_Breast_bet) [great](https://www.pokernews.com/news/2009/01/pokernews-top-10-list-all-time-prop-bets-1034.htm) [stories](http://archives1.twoplustwo.com/showflat.php?Number=10970199), but a particular favorite of mine was when Ashton “Ashman” Griffin won $300,000 off of a spur-of-the-moment bet that he could [run 70 miles in 24 hours after a night of partying](https://forumserver.twoplustwo.com/29/news-views-gossip/ashman-run-70-miles-24-hours-prop-bet-973629/). These bets often involved enormous sums of money riding on nothing more than a player’s word. Nobody ever signed contracts or used escrow services. They just trusted one another.
 
-Of course, there were plenty of disputes and scandals, and learning how to navigate this world of trust was essential to survive that world. Players would disagree on the outcome of a bet or on the details of its conditions, and often you’d turn to the community for arbitration. There were also scandals involving players cheating or outright stealing, but they were relatively uncommon and the volume of money lost in this way was a drop in the ocean when compared to the total amount of money changing hands. The same could not be said of the platforms.
+Of course, there were plenty of disputes and scandals, and learning how to navigate that world of trust was essential to survive. Players would disagree on the outcome of a bet or on the details of its conditions, and often you’d turn to the community for arbitration. There were also scandals involving players cheating or outright stealing, but they were relatively uncommon and the volume of money lost in this way was a drop in the ocean when compared to the total amount of money changing hands. The same could not be said of the platforms.
 
 There were several major instances in which platforms either [disappeared with all of its users’ funds](http://www.pokerhistory.eu/history/online-poker-scandals/poker-spot-scandal) or [had critical design flaws](https://www.developer.com/tech/article.php/10923_616221_3/How-We-Learned-to-Cheat-at-Online-Poker-A-Study-in-Software-Security.htm). In 2007 it was discovered that someone inside of the Cereus Network, one of the largest cardrooms backed by well-respected celebrity players such as Phil Hellmuth and Annie Duke, had been [cheating its players in high-stakes games](http://archives1.twoplustwo.com/showflat.php?Cat=0&Number=12523924&page=0&fpart=1&vc=1). But this paled in comparison to the revelations following 2011 DOJ “Black Friday” crackdown that two of the largest platforms, Cereus (again) and Full Tilt, had essentially been ponzi schemes. Hundreds of millions of dollars in player funds had been embezzled by insiders. This resulted in Pokerstars making a deal with the DOJ to [purchase Full Tilt’s seized assets](http://www.espn.com/poker/story/_/id/8218085/pokerstars-reaches-settlement-department-justice-acquires-full-tilt-poker) (at a preposterous discount) directly from the government on the condition that they reimburse players who had been defrauded.
 
@@ -67,6 +69,8 @@ Similarly, I’ve found it’s really important to ask lots of questions. The mo
 If you can’t see how something works, you can’t really be sure what it will do. Similarly, simple things are easy to understand. Complex things are not.
 
 Large corporations have many actors within them, with webs of motivations that can be impossible to discern from the outside. If any of those individual actors have the power to affect your interaction with the system as a whole, it should be much more difficult to trust that system.
+
+Remember, you don't need a big conspiracy--Edward Snowden was just a random contractor, and he had access to the entire NSA database. He decided to risk life in jail in order to do something he thought was the right thing, but that's pretty unusual--I've never heard of a company executive embezzling corporate funds in order to siphon that money off to charity. How often do you think people risk their life in jail for principles vs something stupid and reckless, or self-serving? How many people do you think there are working at Facebook with historically unprecedented power and little supervision?
 
 This is closely related to the concept of an “attack surface” in software security. Complex systems are not just difficult to understand, they also have many points of failure (aka unexpected behaviour).
 
