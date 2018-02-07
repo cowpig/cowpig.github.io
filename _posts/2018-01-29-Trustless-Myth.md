@@ -52,7 +52,7 @@ Things can get complicated when you look at larger systems, or corporations. You
 
 Additionally, powerful entities typically have PR departments dedicated to mitigating damage to their reputations. And the more powerful an entity, the more power it has to shape public opinion. [Large](https://www.theverge.com/2017/8/23/16194366/exxon-mobil-knew-climate-change-misinformation-harvard-study) [corporations](https://www.theatlantic.com/politics/archive/2016/05/low-tar-cigarettes/481116/) and [government agencies](http://www.ihr.org/jhr/v09/v09p305_Marchetti.html) are [better](https://www.nytimes.com/2014/06/30/technology/facebook-tinkers-with-users-emotions-in-news-feed-experiment-stirring-outcry.html) [than](https://en.wikipedia.org/wiki/Web_brigades) [ever](https://en.wikipedia.org/wiki/50_Cent_Party) at this. And bad actors are drawn to the unregulated world of cryptocurrencies like flies to shit.
 
-In the age of fake news and multimillion-dollar ICO scams, how can you decide whom to trust? I have some heuristics:
+In the age of fake news and multimillion-dollar ICO scams, how can you decide who to trust? I have some heuristics:
 
 **Lies are like cockroaches: if you find one, there are probably a lot more.**
 
@@ -70,7 +70,7 @@ If you can’t see how something works, you can’t really be sure what it will 
 
 Large corporations have many actors within them, with webs of motivations that can be impossible to discern from the outside. If any of those individual actors have the power to affect your interaction with the system as a whole, it should be much more difficult to trust that system.
 
-Remember, you don't need a big conspiracy--Edward Snowden was just a random contractor, and he had access to the entire NSA database. He decided to risk life in jail in order to do something he thought was the right thing, but that's pretty unusual--I've never heard of a company executive embezzling corporate funds in order to siphon that money off to charity. How often do you think people risk their life in jail for principles vs something stupid and reckless, or self-serving? How many people do you think there are working at Facebook with historically unprecedented power and little supervision?
+Remember, you don't need a big conspiracy--Edward Snowden was just a random contractor, and he had access to the entire NSA database. He decided to risk life in jail in order to do something he thought was the right thing, but that's pretty unusual--I've never heard of a company executive embezzling corporate funds in order to siphon that money off to charity. How often do you think people risk their life in jail for principles vs risking jail for something stupid and reckless, or self-serving? How many people are working at Facebook with historically unprecedented power and little supervision? And do you think the supervisors' motives are aligned with yours?
 
 This is closely related to the concept of an “attack surface” in software security. Complex systems are not just difficult to understand, they also have many points of failure (aka unexpected behaviour).
 
