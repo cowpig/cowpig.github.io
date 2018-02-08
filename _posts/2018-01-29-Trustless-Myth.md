@@ -8,8 +8,6 @@ categories: bitcoin ethereum poker cryptocurrency trust economics game-theory
 
 *I was deeply involved in the poker world for many years, and learned a lot about the psychology involved in trusting individuals. After that, I became a software engineer and learned a lot about the analysis involved in trusting systems.*
 
-![trust-image](/images/technohandshake.jpg "Trust")
-
 ### “Trustless” isn’t a thing.
 
 The idea of “[trustless](https://steemit.com/technology/@jacor/trustless-what-does-it-mean-in-laymen-s-terms)” systems is rooted in the philosophies of early Bitcoin adopters: that banks cannot be trusted (nor central authorities in general), and that we therefore should rely on a system that eliminates the need for such a trusted party. Bitcoin, evangelists argue, is a system that replaces trust with consensus.
