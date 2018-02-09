@@ -86,7 +86,7 @@ Information about the cryptocurrency world mostly falls under three categories (
 
 People in group (1), especially who work in a non- or low-profit area (Cornell's IC3 program is a good example) are much more reliable sources than any of the other two. Unfortunately, they’re hard to find if you’re not in those circles already.
 
-The reliability of group (2) is depends hugely on the reputation of the source. Use well-respected news sources and ignore the rest. Of course, this is difficult, because well-respected organizations mostly aren’t paying attention to the crypto world.
+The reliability of group (2) is depends hugely on the reputation of the source. Use well-respected news sources and ignore the rest. Of course, this is difficult, because well-respected organizations mostly aren’t paying attention to the crypto world (although this is changing).
 
 Group (3) is essentially a giant industry specializing in classifying and manipulating end users. It’s impossible to trust. Delete your social media accounts.
 
